@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import TextEditor from './components/TextEditor';
+import Header from './components/Header';
 
 function App() {
+  const [value, setValue] = useState('')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <div className="row">
+        <div className="col-md-6" style={{margin: 'auto', marginTop: '50px'}}>
+          <div style={{textAlign: 'center'}}>
+            <h3>Type in the box</h3>
+          </div>
+          <TextEditor setValue={setValue}/>
+          <br/>
+          <div>{value}</div>
+        </div>
+      </div>
     </div>
   );
 }

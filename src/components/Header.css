@@ -1,0 +1,31 @@
+.Header{
+    width: 100%;
+    height: 3rem;
+    /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    /* background: linear-gradient(to right, #070707, #201f30, #343359, #494986, #5e60b5, #5278d0, #3c91e9, #00a9ff, #00c1ff, #1cd6fd, #61eaf7, #95fbf2); */
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    /* color: black; */
+    color:white;
+    margin-bottom: 3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.github{
+    color: white;
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+.github>a{
+    color: white;
+    float: right;
+    margin-right: 0.5rem;
+    /* margin-top: 1rem; */
+}
