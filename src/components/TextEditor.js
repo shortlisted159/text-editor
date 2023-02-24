@@ -7,7 +7,6 @@ const TextEditor = ({initialValue, getValue}) => {
       ref={editor}
       value={initialValue}
       tabIndex={1}
-      //   onBlur={(newContent) => getValue(newContent)}
       onChange={(newContent) => getValue(newContent)}
     />
   )
