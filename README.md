@@ -19,5 +19,5 @@ https://bright-axolotl-c85809.netlify.app
 ```bash
 npm run build
 ```
-Build file-> Netlify(in this case)
+After that step upload the build file to Netlify
 
