@@ -8,6 +8,7 @@ function App() {
   const getValue = (value) => {
     setValue(value);
   };
+  
   return (
     <div className="App">
       <Header/>
@@ -23,5 +24,6 @@ function App() {
       </div>
     </div>
   );
+
 }
 export default App;
